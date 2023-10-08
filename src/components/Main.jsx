@@ -33,8 +33,8 @@ const Main = () => {
                     <FaInstagram color='white' className='cursor-pointer' size={20} />
                     <FaLinkedin color='white' className='cursor-pointer' size={20} />
                 </div>
-                <div>
-                <h1 className='sm:text-5xl text-4xl pt-7 font-bold text-gray-100'>Resume</h1>
+                <div  className='flex justify-center mt-10 sm:max-w-none max-w-[200px] w-full'>
+                <h1 className='sm:text-5xl text-4xl pt-7 font-bold text-gray-100 '>Resume</h1>
                   </div>
                 <div className='flex justify-center mt-10 sm:max-w-none max-w-[200px] w-full' >
                   <FaArrowDown className='text-gray-50 text-2xl animate-bounce' size={50}/>
