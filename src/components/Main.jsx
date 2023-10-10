@@ -42,16 +42,25 @@ const Main = () => {
                       </div>
                     <div className='flex justify-center mt-10 sm:max-w-none max-w-[200px] w-full' >
                       <FaArrowDown className='text-gray-50 text-2xl animate-bounce' size={50}/>
-
                     </div>
-
-
                     
+                    
+                      <div className='2xl:block hidden absolute w-[500px] h-[500px] ml-[550px] mb-20 bg-white rounded-full'>
+                        </div>
+                      <div className="absolute ml-[600px] mb-40">
+                          <img className="2xl:block hidden w-96 h-96 object-contain hover:scale-110 ease-in duration-200"src='src/assets/images/me_london_Transparent_V2.png'/>
+                      </div>
+
+
               </div>
-              <div className="max-w-[700px] flex justify-center lg:items-start items-center relative">
-                <img className="2xl:block hidden "src='src/assets/images/me_london_Transparent.png'/>
-              </div>
+
+
+
+
+
             </div>
+
+            
 
 
 
