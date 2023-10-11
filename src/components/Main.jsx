@@ -45,10 +45,10 @@ const Main = () => {
                     </div>
                     
                     
-                      <div className='2xl:block hidden absolute w-[500px] h-[500px] ml-[550px] mb-20 bg-white rounded-full'>
+                      <div className='2xl:block hidden absolute w-[500px] h-[500px] ml-[540px] mb-20 bg-slate-700 rounded-md '>
                         </div>
-                      <div className="absolute ml-[600px] mb-40">
-                          <img className="2xl:block hidden w-96 h-96 object-contain hover:scale-110 ease-in duration-200"src='src/assets/images/me_london_Transparent_V2.png'/>
+                      <div className="absolute ml-[500px] ">
+                          <img className="2xl:block hidden drop-shadow-xl w-[650px] h-[650px] object-contain  hover:scale-110 ease-in duration-200"src='src/assets/images/Profile_Picture_V1.png'/>
                       </div>
 
 
