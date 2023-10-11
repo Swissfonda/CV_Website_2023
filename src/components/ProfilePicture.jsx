@@ -1,5 +1,5 @@
 import React from 'react'
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function ResponsiveDiv() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -33,9 +33,29 @@ function ResponsiveDiv() {
 
  // xl
   } else if (screenWidth > 768) {
-    return <div>Medium Screen Div</div>;
-  } else {
-    return <div>Small Screen Div</div>;
+    return (
+        <>
+        <div className='absolute'>
+            <div className='absolute w-[250px] h-[250px] right-28 top-20 bg-slate-700 rounded-md '>
+            </div>
+            <div className="ml-[50px] ">
+                <img className=" drop-shadow-xl w-[400px] h-[400px] mb-[650px] object-contain  hover:scale-110 ease-in duration-200"src='src/assets/images/Profile_Picture_V1.png'/>
+            </div>
+        </div>
+        </>
+    )
+  } else if (screenWidth > 500){
+    return (
+        <>
+        <div className='absolute'>
+            <div className='absolute w-[250px] h-[250px] right-28 top-20 bg-slate-700 rounded-md '>
+            </div>
+            <div className="ml-[50px] ">
+                <img className=" drop-shadow-xl w-[400px] h-[400px] mb-[650px] object-contain  hover:scale-110 ease-in duration-200"src='src/assets/images/Profile_Picture_V1.png'/>
+            </div>
+        </div>
+        </>
+    )
   }
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import {FaYoutube,FaInstagram,FaLinkedin,FaArrowDown} from 'react-icons/fa'
+import ProfilePicture from './ProfilePicture'
 
 const Main = () => {
   return (
@@ -44,12 +45,7 @@ const Main = () => {
                       <FaArrowDown className='text-gray-50 text-2xl animate-bounce' size={50}/>
                     </div>
                     
-                    
-                      <div className='2xl:block hidden absolute w-[500px] h-[500px] ml-[540px] mb-20 bg-slate-700 rounded-md '>
-                        </div>
-                      <div className="absolute ml-[500px] ">
-                          <img className="2xl:block hidden drop-shadow-xl w-[650px] h-[650px] object-contain  hover:scale-110 ease-in duration-200"src='src/assets/images/Profile_Picture_V1.png'/>
-                      </div>
+                    <ProfilePicture/>
 
 
               </div>
