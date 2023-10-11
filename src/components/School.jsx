@@ -30,30 +30,23 @@ const data = [
             'Maintained the website called waedi.ch with the latest events & news',
     },
 
-
-    {
-        startToEnd: '2009-2012',
-        title: 'Privateschule A bis Z ',
-        url: 'https://www.privatschule-abisz.ch/',
-        details:
-            'Developed UI for different companys like Bico & ABB',
-    },
-
-    {
-        year: 2013,
-        title: 'Applikationsentwickler',
-        url: '',
-        duration: '1 Year',
-        details:
-            'Created Database',
-    },
-
 ];
 
 const School = () => {
   return (
     <div id='school' className=' max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
     <h1 className='text-4xl font-bold text-center text-[#001b5e]'>School</h1>
+    {data.map((item,idx) => (
+            <SchoolItem
+            key={idx}
+            startToEnd={item.startToEnd}
+            title={item.title} 
+            url={item.url}
+            duration={item.duration} 
+            details={item.details}
+            />
+
+        ))}
 
 </div>
   )

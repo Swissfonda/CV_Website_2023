@@ -12,7 +12,9 @@ const Main = () => {
         <div className='w-full h-screen absolute top-0 left-0 bg-black/80'>
             <div className='flex h-full flex-row'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-100'>I'm Lawrence Sumiller</h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-100'>I'm
+                    <span className='text-red-500 capitalize'> Lawrence Sumiller</span>
+                    </h1>
                     <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-200'>I'm a 
                     <TypeAnimation
             sequence={[
@@ -39,7 +41,7 @@ const Main = () => {
                         <FaLinkedin color='white' className='cursor-pointer' size={20} />
                     </div>
                     <div  className='flex justify-center mt-10 sm:max-w-none max-w-[200px] w-full'>
-                    <h1 className='sm:text-5xl text-4xl pt-7 font-bold text-gray-100 '>Resume</h1>
+                    <h1 className='sm:text-5xl text-4xl pt-7 font-bold text-gray-100  hover:scale-110 ease-in duration-200 '>Resume</h1>
                       </div>
                     <div className='flex justify-center mt-10 sm:max-w-none max-w-[200px] w-full' >
                       <FaArrowDown className='text-gray-50 text-2xl animate-bounce' size={50}/>
